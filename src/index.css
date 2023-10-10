@@ -1,0 +1,24 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d1e1ff90;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+  background-color: #d1e1ff90;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #282c34;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
